@@ -1,0 +1,15 @@
+.over-flow{
+  overflow: auto;
+}
+
+.navbar{
+  z-index: 99999999;
+}
+
+.top-nav-collapse{
+  background: #222222ee !important;
+}
+
+.b-round{
+  border-radius: 20px !important;
+}

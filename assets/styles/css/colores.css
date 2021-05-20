@@ -1,0 +1,43 @@
+:root {
+  --main-color: #3498db;
+  --color-1: #3498db87;
+  --color-2: #fefefe;
+  --color-3: #222222;
+  --color-4: #000000;
+}
+
+
+
+/****************************/
+/*          fondos          */
+/****************************/
+
+
+.bg-main{background: var(--main-color) !important; }
+
+.bg-1{background: var(--color-1) !important;}
+
+.bg-2{background: var(--color-2) !important;}
+
+.bg-3{background: var(--color-3) !important;}
+
+.bg-4{background: var(--color-4) !important;}
+
+
+
+/****************************/
+/*          color           */
+/****************************/
+
+
+.top-bar>i{color: var(--color-2) !important;}
+
+.color-main{color: var(--main-color) !important;}
+
+.color-1{color: var(--color-1) !important;}
+
+.color-2{color: var(--color-2) !important;}
+
+.color-3{color: var(--color-3) !important;}
+
+.color-4{color: var(--color-4) !important;}
