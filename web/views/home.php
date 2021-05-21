@@ -11,7 +11,7 @@ function home($name, $s, $autor){
               <div class="white-text text-center mx-auto">
                 <h1><?=$name?></h1>
                 <hr class="w-80-p mx-auto bg-3">
-                <h5>FullStack Developer</h5>
+                <h5>Web and Desktop Developer</h5>
               </div>
             </div>
           </div>

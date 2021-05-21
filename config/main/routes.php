@@ -29,6 +29,11 @@
                 CM($serve);
                 break;
 
+            case "blog":
+                include "../web/views/".$ruta[0].".php";
+                blog($serve);
+                break;
+
             case 'proyects':
                 if (isset($ruta[1])) {
                     switch ($ruta[1]) {

@@ -3,44 +3,44 @@
 function About($ag, $ex, $s){
 	?>
     <div class="mt-6-r">
-        <center><h1 class="display-3" style="">Kevin Andrés Orrego Martínez</h1></center>
+        <center><h1 class="display-4" style="">KEVAO DEV.</h1></center>
     </div>
     <div class="container">
 			<center><img class="icon" src="<?=$s?>/assets/media/favicon.png"></center>
 			<br>
 			<h1 class=" text-center py-1-r">
-				Sobre mi
+				About Me
 			</h1>
 			<div class="row py-2-r">
 				<div class="col-sm-12 col-md-6">
 					<ul class="list-unstyled text-center py-2-r card bg-primary text-light fs-1">
-						<li><strong>Nombre:</strong> Kevin Andres Orrego Martínez</li>
-						<li><strong>Edad: </strong><?=$ag?></li>
-						<li><strong>Cargo: </strong>Desarrollador Web and Desktop</li>
-						<li><strong>Experiencia: </strong><?=$ex?></li>
+						<li><strong>Name:</strong> Kevin Andres Orrego Martínez</li>
+						<li><strong>Age: </strong><?=$ag?></li>
+						<li><strong>Position: </strong>Web and Desktop Developer</li>
+						<li><strong>Experience: </strong><?=$ex?> años</li>
 					</ul>
 				</div>
 				<div class="col-sm-12 col-md-6">
 					<ul class="list-unstyled text-center py-2-r card bg-primary text-light fs-1">
-						<li><strong>Titulo:</strong> Bachiller tecnico Informatico</li>
-						<li><strong>Institucion Educativa:</strong> INEM "Jose Felix de Restrepo"</li>
-						<li><strong>Año de Graduacion:</strong> 2019</li>
-						<li></li>
-						<li></li>
+						<li><strong>Graduation Degree:</strong> Bachiller tecnico Informatico</li>
+						<li><strong>High School:</strong> INEM "Jose Felix de Restrepo"</li>
+						<li><strong>Graduation Year:</strong> 2019</li>
+						<li><strong>Hobbies:</strong> Programming, Read, Drawing and Gaming</li>
 					</ul>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-12">
 					<div class="container py-2-r px-2-r text-center">
-						<p>Como programador mi formación técnica, laboral y humana me han ayudado a reforzar mi recursividad, creatividad, trabajo en equipo y disciplina, he obtenido experiencia con diversas tecnologías en el ámbito del desarrollo de web.</p>
+						<p>As a programmer my technical, labor and human training have helped me to reinforce my resourcefulness, creativity, teamwork and discipline, I have gained experience with various technologies in the field of software development.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="container bg-ligth my-4-r">
+			<hr class="w-100 d-md-none bg-dark">
 			<h2 class="text-center fs-4">Skills</h2>
-			<div class="text-center fs-2 my-4-r">Lenguages</div>
+			<div class="text-center fs-2 my-4-r">Programming Languages</div>
 			<div class="row py-2-r">
 				<div class="col-xs-12 col-lg-4">
 				    <center>
@@ -85,7 +85,8 @@ function About($ag, $ex, $s){
 				    </center>
 				</div>
 			</div>
-			<div class="text-center fs-2 my-4-r">Frameworks y Librerias</div>
+			<hr class="w-100 d-md-none bg-dark">
+			<div class="text-center fs-2 my-4-r">Frameworks and Libraries</div>
 			<div class="row py-2-r">
 				<div class="col-xs-12 col-lg-3">
 				    <center>
@@ -120,7 +121,8 @@ function About($ag, $ex, $s){
 				    </center>
 				</div>
 			</div>
-			<div class="text-center fs-2 my-4-r">Base de datos</div>
+			<hr class="w-100 d-md-none bg-dark">
+			<div class="text-center fs-2 my-4-r">Databases</div>
 			<div class="row py-2-r">
 				<div class="col-xs-12 col-lg-12">
 				    <center>
@@ -130,20 +132,6 @@ function About($ag, $ex, $s){
 						</a>
 				    </center>
 				</div>
-			</div>
-			<div class="mt-3-r mb-1-r row">
-				<div class="col-4">
-					<a href="https://wa.link/mle7t1" target="_blank" class="btn btn-block bg-success color-2">Whatsapp</a>
-				</div>
-				<div class="col-4">
-					<a href="https://www.linkedin.com/in/kevaotech/" target="_blank" class="btn btn-block bg-info color-2">LinkedIn</a>
-				</div>
-				<div class="col-4">
-					<a href="https://github.com/KEVAO18" target="_blank" class="btn btn-block bg-3 color-2"><i class='fab fa-github-alt'></i> GitHub</a>
-				</div>
-			</div>
-			<div class="mb-1-r">
-				<a href="<?=$s?>/assets/docs/CV.pdf" target="_blank" class="btn btn-block bg-main color-2">curriculum</a>
 			</div>
 		</div>
 	<?php

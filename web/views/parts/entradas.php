@@ -1,6 +1,6 @@
 <?php
 
-	function entradas($a, $s){
+	function entradas($s){
 
 		?>
 			<div id="contenedor" class="pt-2-r"></div>

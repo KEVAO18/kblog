@@ -22,7 +22,7 @@ include_once '../config/main/routes.php';
 
 
     <!-- Font Awesome -->
-  	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
   	<!--Import Google Icon Font-->
 	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -58,16 +58,17 @@ include_once '../config/main/routes.php';
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="<?=$serve?>/About">Sobre Mí</a>
+              <a class="nav-link active" aria-current="page" href="<?=$serve?>/About">About Me</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                 More
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="<?=$serve?>/proyects">Proyectos</a></li>
+                <li><a class="dropdown-item" href="<?=$serve?>/proyects">Projects</a></li>
+                <li><a class="dropdown-item" href="<?=$serve?>/blog">Blog</a></li>
                 <div class="dropdown-divider"></div>
-                <li><a class="dropdown-item" href="<?=$serve?>/CM">Contactame</a></li>
+                <li><a class="dropdown-item" href="<?=$serve?>/CM">Contact Me</a></li>
               </ul>
             </li>
           </ul>
@@ -87,31 +88,31 @@ include_once '../config/main/routes.php';
   	    <div class="row">
   	      <div class="col-md-8 mt-md-0 mt-3">
   	        <h5 class="text-uppercase color-4"><?=$appName?></h5>
-            <p class="text-uppercase color-4"><Span>FullStack Dev.</Span></p>
+            <p class="text-uppercase color-4"><Span>Web and Desktop Developer</Span></p>
   	        <p class="color-4"></p>
   	      </div>
   	      <hr class="clearfix w-100 d-md-none pb-3">
-  	      <div class="col-md-4 mb-md-0 mb-3 text-right">
+  	      <div class="col-md-4 mb-md-0 mb-3 text-md-right">
   	        <h5 class="text-uppercase color-4">Links</h5>
   	        <ul class="list-unstyled list1">
               <li>
                 <a href="<?=$serve?>/home" class="color-4">Home</a>
               </li>
               <li>
-                <a href="<?=$serve?>/About" class="color-4">Sobre Mí</a>
+                <a href="<?=$serve?>/About" class="color-4">About Me</a>
               </li>
               <li>
-                <a href="<?=$serve?>/proyects" class="color-4">Proyectos</a>
+                <a href="<?=$serve?>/proyects" class="color-4">Projects</a>
               </li>
               <li>
-                <a href="<?=$serve?>/CM" class="color-4">Contactame</a>
+                <a href="<?=$serve?>/CM" class="color-4">Contact Me</a>
               </li>
   	        </ul>
   	      </div>
   	    </div>
   	  </div>
   	  <div class="footer-copyright text-center py-3 color-2 bg-main">©2021 
-  	    <a href="http://www.kevao.tech" class="color-2">Kevin</a>
+  	    <a href="http://www.kevao.tech" class="color-2"><?=$autor?></a>
   	  </div>
   	</footer>
   	<!-- Footer -->
@@ -128,6 +129,6 @@ include_once '../config/main/routes.php';
   	<!-- MDB core JavaScript -->
   	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
     <!-- script -->
-<!--     <script src="<?=$serve?>/assets/js/index.js"></script> -->
+    <!--<script src="<?=$serve?>/assets/js/index.js"></script> -->
   </body>
 </html>
