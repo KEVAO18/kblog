@@ -48,57 +48,64 @@ include_once '../config/main/routes.php';
   <body>
   	<!--Navbar -->
   	<nav class="mb-1 navbar navbar-expand-lg navbar-dark bg-main fixed-top scrolling-navbar">
-  	  <a class="navbar-brand color-1" href="<?=$serve?>/inicio">
-        <img src="<?=$serve?>/assets/media/favicon.png" class="w-30-px b-round" alt=""> 
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
-        aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  	  <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-  	    <ul class="navbar-nav mr-auto">
-  	      <li class="nav-item">
-  	        <a class="nav-link" href="<?=$serve?>/inicio">KBlog
-  	          <span class="sr-only">(current)</span>
-  	        </a>
-  	      </li>
-  	    </ul>
+      <div class="container-fluid">
+        <a class="navbar-brand text-capitalize" href="<?=$serve?>/home">
+          <?=$appName?>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="<?=$serve?>/About">Sobre Mí</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="<?=$serve?>/proyects">Proyectos</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" href="<?=$serve?>/CM">Contactame</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
         <form class="form-inline ml-auto" method="post">
           <div class="md-form my-0 color-1">
             <input class="form-control" type="text" name="search" placeholder="Buscar..." aria-label="Search">
           </div>
           <button class="btn btn-outline-white btn-md my-0 ml-sm-2" type="submit"><i class="fas fa-search"></i></button>
         </form>
-  	  </div>
+      </div>
   	</nav>
-	   <?=routes($serve, $appName)?>
+	   <?=routes($serve, $appName, $autor, $ag, $ex)?>
   	<!-- Footer -->
-  	<footer class="page-footer font-small pt-4">
+  	<footer class="page-footer pt-2-r font-small bg-2">
   	  <div class="container text-center text-md-left">
   	    <div class="row">
-  	      <div class="col-md-6 mt-md-0 mt-3">
+  	      <div class="col-md-8 mt-md-0 mt-3">
   	        <h5 class="text-uppercase color-4"><?=$appName?></h5>
+            <p class="text-uppercase color-4"><Span>FullStack Dev.</Span></p>
   	        <p class="color-4"></p>
   	      </div>
   	      <hr class="clearfix w-100 d-md-none pb-3">
-  	      <div class="col-md-3 mb-md-0 mb-3">
+  	      <div class="col-md-4 mb-md-0 mb-3 text-right">
   	        <h5 class="text-uppercase color-4">Links</h5>
   	        <ul class="list-unstyled list1">
-  	          <li>
-  	            <a href="<?=$serve?>/posts" class="color-4">Posts</a>
-  	          </li>
               <li>
                 <a href="<?=$serve?>/home" class="color-4">Home</a>
               </li>
-  	        </ul>
-  	      </div>
-  	      <hr class="clearfix w-100 d-md-none pb-3">
-  	      <div class="col-md-3 mb-md-0 mb-3">
-  	        <h5 class="text-uppercase color-4">Us</h5>
-  	        <ul class="list-unstyled list1">
-  	          <li>
-  	            <a href="<?=$serve?>/filosofia_y_metodos" class="color-4">About Us</a>
-  	          </li>
+              <li>
+                <a href="<?=$serve?>/About" class="color-4">Sobre Mí</a>
+              </li>
+              <li>
+                <a href="<?=$serve?>/proyects" class="color-4">Proyectos</a>
+              </li>
+              <li>
+                <a href="<?=$serve?>/CM" class="color-4">Contactame</a>
+              </li>
   	        </ul>
   	      </div>
   	    </div>
