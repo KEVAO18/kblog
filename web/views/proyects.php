@@ -9,13 +9,18 @@ function proyects($s){
       'img' => $s.'assets/media/favicon.png'
     ),
     array(
-      'name' => 'LernSoft',
-      'link' => 'http://store.kevao.tech/',
+      'name' => 'Ecumax9',
+      'link' => $s.'/proyects/E9',
       'img' => $s.'assets/media/favicon.png'
     ),
     array(
-      'name' => 'Ecumax9',
-      'link' => $s.'/proyects/E9',
+      'name' => 'War of Mathematics',
+      'link' => $s.'/proyects/WM',
+      'img' => $s.'assets/media/favicon.png'
+    ),
+    array(
+      'name' => 'LernSoft',
+      'link' => 'http://store.kevao.tech/',
       'img' => $s.'assets/media/favicon.png'
     ),
     array(
@@ -24,15 +29,20 @@ function proyects($s){
       'img' => $s.'assets/media/favicon.png'
     ),
     array(
-      'name' => 'Aromas & Ángeles',
-      'link' => 'https://aromasyangelesoficial.000webhostapp.com/Inicio',
+      'name' => 'KBlog',
+      'link' => $s.'/proyects/kblog',
       'img' => $s.'assets/media/favicon.png'
     ),
-    array(
-      'name' => 'Yagenautas',
-      'link' => 'https://yagenautas.000webhostapp.com/',
-      'img' => $s.'assets/media/favicon.png'
-    ),
+    // array(
+    //   'name' => 'Aromas & Ángeles',
+    //   'link' => 'https://aromasyangelesoficial.000webhostapp.com/Inicio',
+    //   'img' => $s.'assets/media/favicon.png'
+    // ),
+    // array(
+    //   'name' => 'Yagenautas',
+    //   'link' => 'https://yagenautas.000webhostapp.com/',
+    //   'img' => $s.'assets/media/favicon.png'
+    // ),
     array(
       'name' => 'Poket',
       'link' => 'https://kevao18.github.io/poket/?p=1',

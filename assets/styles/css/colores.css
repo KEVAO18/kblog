@@ -4,6 +4,8 @@
   --color-2: #f9f9f9;
   --color-3: #222222;
   --color-4: #000000;
+  --color-yey: #155724;
+  --color-wm: #34495e;
 }
 
 
@@ -23,6 +25,10 @@
 
 .bg-4{background: var(--color-4) !important;}
 
+.bg-yey{background: var(--color-yey);}
+
+.bg-wm{background: var(--color-wm);}
+
 
 
 /****************************/
@@ -41,3 +47,7 @@
 .color-3{color: var(--color-3) !important;}
 
 .color-4{color: var(--color-4) !important;}
+
+.color-yey{color: var(--color-yey);}
+
+.color-wm{color: var(--color-wm);}

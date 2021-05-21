@@ -13,7 +13,7 @@ function YEY(){
 			</div>
 	    </center>
 	</div>
-	<div class="container mt-5 card mb-4-r">
+	<div class="container mt-5 mb-4-r">
 		<h1 class=" text-center color-yey pt-20-px">
 			Welcome to ¡Yeah English Yeah!
 		</h1>
