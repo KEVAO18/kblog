@@ -2,12 +2,13 @@
 
 	function entradas($s){
 //http://localhost/proyectos/php/consultas_k/
+//https://kblog-api.herokuapp.com/All
 		?>
 			<div id="contenedor" class="pt-2-r"></div>
 			<script>
 				$.ajax({
 				  type: "get",
-				  url: "https://kblog-api.herokuapp.com/All",
+				  url: "http://localhost/proyectos/php/consultas_k/All",
 				  dataType: "json"
 				}).done(
 				  function (info) {

@@ -66,19 +66,19 @@ include_once '../config/main/routes.php';
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="<?=$serve?>/proyects">Projects</a></li>
-                <li><a class="dropdown-item" href="<?=$serve?>/blog">Blog</a></li>
+                <!-- <li><a class="dropdown-item" href="<?=$serve?>/blog">Blog</a></li> -->
                 <div class="dropdown-divider"></div>
                 <li><a class="dropdown-item" href="<?=$serve?>/CM">Contact Me</a></li>
               </ul>
             </li>
           </ul>
         </div>
-        <form class="form-inline ml-auto" method="post">
+        <!-- <form class="form-inline ml-auto" method="post">
           <div class="md-form my-0 color-1">
             <input class="form-control" type="text" name="search" placeholder="Buscar..." aria-label="Search">
           </div>
           <button class="btn btn-outline-white btn-md my-0 ml-sm-2" type="submit"><i class="fas fa-search"></i></button>
-        </form>
+        </form> -->
       </div>
   	</nav>
 	   <?=routes($serve, $appName, $autor, $ag, $ex)?>
