@@ -25,8 +25,6 @@ $icoName = "favicon";
 
 $keys ="K, Kevin Orrego, Blog";
 
-//$serve = "http://localhost/proyectos/php/k";
-
-$serve = "https://kevao-blog.herokuapp.com";
+$serve = "http://kevao.tech";
 
 ?>
