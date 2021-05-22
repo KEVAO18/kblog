@@ -8,7 +8,7 @@
 			<script>
 				$.ajax({
 				  type: "get",
-				  url: "http://localhost/proyectos/php/consultas_k/All",
+				  url: "https://kblog-api.herokuapp.com/All",
 				  dataType: "json"
 				}).done(
 				  function (info) {

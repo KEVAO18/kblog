@@ -8,15 +8,15 @@ include_once '../config/main/routes.php';
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="description" content="">
+    <meta name="description" content="My portfolio">
     <meta name="keywords" content="<?=$keys?>"/>
     <meta name='viewport' content='width=device-width, user-scalable=no'>
 	  <link rel="icon" href="<?=$serve?>/assets/media/<?=$icoName?>.png">
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta http-equiv="cache-control" content="3600" />
-    <meta name="copyright" content="Kevin Orrego" />
+    <meta name="copyright" content="<?=$autor?>" />
     <meta name="robots" content="index,follow" />
-    <meta name="author" content="Kevin Orrego">
+    <meta name="author" content="<?=$autor?>">
     <meta charset="utf-8">
 	  <title><?=$appName?></title>
 
@@ -38,8 +38,6 @@ include_once '../config/main/routes.php';
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
 		<!-- Material Design Bootstrap -->
 		<link href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css' rel='stylesheet'>
-    <!-- swal -->
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 		<!-- JQuery -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	  <!-- aos -->
