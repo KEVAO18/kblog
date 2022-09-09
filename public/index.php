@@ -64,7 +64,8 @@ include_once '../config/main/routes.php';
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="<?=$serve?>/proyects">Projects</a></li>
-                <!-- <li><a class="dropdown-item" href="<?=$serve?>/blog">Blog</a></li> -->
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" href="<?=$serve?>/blog">blog (en pruebas)</a></li>
                 <div class="dropdown-divider"></div>
                 <li><a class="dropdown-item" href="<?=$serve?>/CM">Contact Me</a></li>
               </ul>

@@ -6,7 +6,4 @@
 			<script src="<?=$s?>/assets/scrpts/js/optain.js"></script>
 		<?php
 	}
-
-
-
 ?>
