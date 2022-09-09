@@ -1,6 +1,6 @@
 <?php 
 
-include "config/config.php";
+include "config/main/pageController.php";
 
 ?>
 <!DOCTYPE html>
@@ -70,10 +70,10 @@ include "config/config.php";
 		setTimeout(function() {
 		    var URLactual = window.location;
 			document.getElementById('par').innerHTML = "Listo";
-			if(URLactual == "http://kevao.tech"){
+			if(URLactual == "<?=$serve?>"){
 			    window.location.href = 'home';
 			}else{
-			    window.location.href = 'http://kevao.tech/home';
+			    window.location.href = 'home';
 			}
 		}, 2000);
 </script>
